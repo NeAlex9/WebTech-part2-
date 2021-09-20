@@ -1,0 +1,2 @@
+javac -d bin ./src/laba1/classesAndObjects/ballAndBin/*
+java -classpath ./bin/laba1/classesAndObjects/ballAndBin src/laba1/classesAndObjects/ballAndBin/Main  ???
