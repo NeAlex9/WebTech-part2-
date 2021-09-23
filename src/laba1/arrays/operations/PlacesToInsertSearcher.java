@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class PlacesToInsertSearcher {
     public static void main(String[] args) {
-        int[] arr1 = new int[]{2, 3, 7, 11};
-        int[] arr2 = new int[]{3, 5, 13};
+        int[] arr1 = new int[]{1, 1, 1, 1, 6};
+        int[] arr2 = new int[]{1, 1, 1};
         int[] res = getPlaces(arr1, arr2);
         for (int x : arr1)
             System.out.print(x + " ");
@@ -26,7 +26,7 @@ public class PlacesToInsertSearcher {
         }
 
         int i = 0, j = 0;
-        while (i < temp.size()) {
+        while (i < temp.size() && j < arr2.length) {
             if (arr2[j] <= temp.get(i)) {
                 temp.add(i, arr2[j]);
                 indexes[j] = i;
