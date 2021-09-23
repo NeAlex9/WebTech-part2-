@@ -1,0 +1,2 @@
+javac -d bin ./src/laba1/classesAndObjects/ballAndBin/*
+java -cp bin laba1.classesAndObjects.ballAndBin.Main запускать из папки bin

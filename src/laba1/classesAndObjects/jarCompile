@@ -1,0 +1,2 @@
+jar cfe Main.jar laba1.classesAndObjects.ballAndBin.Main laba1/classesAndObjects/ballAndBin/*
+java -jar Main.jar

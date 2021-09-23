@@ -1,2 +1,0 @@
-main-class: src.laba1.classesAndObjects.ballAndBin.Main
-class-path: bin/laba1/classesAndObjects/ballAndBin/
